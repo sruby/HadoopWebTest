@@ -1,4 +1,4 @@
-package my.hdfs;
+package io.github.sruby.hadoop;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;

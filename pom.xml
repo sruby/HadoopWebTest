@@ -49,7 +49,9 @@
             </plugin>
         </plugins>
     </build>
-
+    <!--<properties>
+        <hadoopVersion>3.1.2</hadoopVersion>
+    </properties>-->
     <dependencies>
         <!--dependency>
           <groupId>io.github.sruby</groupId>
@@ -57,6 +59,11 @@
           <version>1.0-SNAPSHOT</version>
         </dependency-->
         <!-- Logging -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -72,6 +79,32 @@
             <artifactId>commons-logging</artifactId>
             <version>1.0.4</version>
         </dependency>
+
+        <!-- Hadoop start -->
+        <!--<dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>${hadoopVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-hdfs</artifactId>
+            <version>${hadoopVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-mapreduce-client-core</artifactId>
+            <version>${hadoopVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoopVersion}</version>
+        </dependency>-->
+        <!-- Hadoop -->
     </dependencies>
 
 </project>
